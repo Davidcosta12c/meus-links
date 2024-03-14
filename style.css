@@ -22,7 +22,7 @@ body {
  }
 
 h1, p, a {
-    color: #1F1F1F;
+    color: #fff;
 }
 
  div img {
@@ -62,4 +62,10 @@ h1, p, a {
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+ }
+
+ div a:hover {
+    background-color: #C4F82A;
+    color: #141414;
+    transition: 0.7s;
  }
